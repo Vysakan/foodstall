@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header{
+    /* background: blanchedalmond; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: sticky;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background: blanchedalmond;
+
+}
+.header ul{
+    display: flex;
+}
+.header ul li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    margin: 30px;
+    
+
+    
+}
+video{
+    width: 100%;
+    height: fit-content;
+    
+}
+.overlay{
+    color: #cee548;
+}
+.cathead{
+    color: rgb(69, 137, 197);
+}
